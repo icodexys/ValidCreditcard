@@ -1,4 +1,4 @@
-
+ 
 def validcard(N):
     T=""; par=0;impar=0;X=""
     
@@ -31,8 +31,8 @@ while y[0]!=4:
     if msg[0]==3 : print("Credit card number invalid!!!....")   
 
 
-print("Tarjeta Valida!!!!")
-print("Tipo: "+msg[1])
+print("Credit Card Numbers Valid!!!!")
+print("Type: "+msg[1])
 
 
 
