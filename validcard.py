@@ -19,7 +19,7 @@ def validcard(N):
     if int(N[0:2])>49 and int(N[0:2])<56:T="**MasterCard**"
     if N[0:2]=="34" or N[0:2]==37:T="**America Express**"
     if N[0]=="4":T="**VISA**"
-    if N[0:2] in "60626465":T="**Discover**"
+    if N[0:2] in ["60","62","64","65"]:T="**Discover**"
     
     return 4,T
 msg=(0,"")
